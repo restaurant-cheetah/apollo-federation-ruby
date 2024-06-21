@@ -9,7 +9,7 @@ This gem extends the [GraphQL Ruby](http://graphql-ruby.org/) gem to add support
 Add this line to your application's Gemfile:
 
 ```ruby
-gem 'apollo-federation', :git => 'git://github.com/restaurant-cheetah/apollo-federation-ruby.git'
+gem "apollo-federation", git: "git@github.com:restaurant-cheetah/apollo-federation-ruby.git", branch: "apollo-federation-2-8"
 ```
 
 And then execute:
