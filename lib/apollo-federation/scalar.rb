@@ -20,7 +20,7 @@ module ApolloFederation
       end
 
       def tag(name:)
-        add_directive(name: 'tag', arguments: [name: 'name', values: name])
+        add_directive(name: 'requiresScopes', arguments: [name: 'name', values: name])
       end
 
       def inaccessible

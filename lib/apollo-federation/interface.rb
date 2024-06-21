@@ -27,7 +27,7 @@ module ApolloFederation
       end
 
       def requires_scopes(scopes)
-        add_directive(name: 'tag', arguments: [name: 'scopes', values: scopes])
+        add_directive(name: 'requiresScopes', arguments: [name: 'scopes', values: scopes])
       end
 
       def tag(name:)

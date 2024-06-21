@@ -8,7 +8,7 @@ module ApolloFederation
     include HasDirectives
 
     VERSION_1_DIRECTIVES = %i[external requires provides].freeze
-    VERSION_2_DIRECTIVES = %i[shareable inaccessible override tags authenticated requiresScopes].freeze
+    VERSION_2_DIRECTIVES = %i[shareable inaccessible override tags authenticated requires_scopes].freeze
 
     def initialize(*args, **kwargs, &block)
       add_v1_directives(**kwargs)
