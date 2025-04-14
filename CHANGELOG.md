@@ -1,3 +1,24 @@
+## [3.10.1](https://github.com/Gusto/apollo-federation-ruby/compare/v3.10.0...v3.10.1) (2025-04-02)
+
+
+### Bug Fixes
+
+* graphql-ruby 2.3 compatibility ([#294](https://github.com/Gusto/apollo-federation-ruby/issues/294)) ([be81a67](https://github.com/Gusto/apollo-federation-ruby/commit/be81a6762d036ea4b2e92ba23c36a7b178d68e90))
+
+# [3.10.0](https://github.com/Gusto/apollo-federation-ruby/compare/v3.9.0...v3.10.0) (2025-02-05)
+
+
+### Features
+
+* update google-protobuf ([#291](https://github.com/Gusto/apollo-federation-ruby/issues/291)) ([2deda45](https://github.com/Gusto/apollo-federation-ruby/commit/2deda45fd37b6e7e9749a0be43b83def6963b8b6))
+
+# [3.9.0](https://github.com/Gusto/apollo-federation-ruby/compare/v3.8.5...v3.9.0) (2025-02-05)
+
+
+### Features
+
+* drop old ruby; remove appraisals ([#290](https://github.com/Gusto/apollo-federation-ruby/issues/290)) ([9caa715](https://github.com/Gusto/apollo-federation-ruby/commit/9caa7159b16cf813b23bc067ef2d2b33b06501a2))
+
 ## [3.8.5](https://github.com/Gusto/apollo-federation-ruby/compare/v3.8.4...v3.8.5) (2024-04-02)
 
 
