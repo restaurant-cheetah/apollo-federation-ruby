@@ -362,7 +362,7 @@ end
 
 To support [federated tracing](https://www.apollographql.com/docs/apollo-server/federation/metrics/):
 
-1. Add `use ApolloFederation::Tracing` to your schema class.
+1. Add `trace_with ApolloFederation::Tracing::Tracer` to your schema class.
 2. Change your controller to add `tracing_enabled: true` to the execution context based on the presence of the "include trace" header:
    ```ruby
    def execute
@@ -471,6 +471,7 @@ See discussion at [#74](https://github.com/Gusto/apollo-federation-ruby/issues/7
 ## Maintainers
 
 Gusto GraphQL Team:
+
 - [Sara Laupp](https://github.com/slauppy)
 - [Seth Copeland](https://github.com/sethc2)
 - [Simon Coffin](https://github.com/simoncoffin)
